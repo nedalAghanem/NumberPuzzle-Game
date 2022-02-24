@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/Regester_activity_color_btn_save"></solid>
+
+    <corners android:radius="@dimen/Regester_activity_btn_radius"></corners>
+
+    <stroke
+        android:width="@dimen/Regester_activity_size_stroke"
+        android:color="@color/Regester_activity_color_stroke"></stroke>
+</shape>

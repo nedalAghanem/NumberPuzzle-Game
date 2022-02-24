@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF1100" ></solid>
+    <corners android:radius="@dimen/Regester_activity_et_radius" ></corners>
+    <stroke android:color="@color/Regester_activity_color_stroke" android:width="@dimen/Regester_activity_size_stroke"></stroke>
+</shape>

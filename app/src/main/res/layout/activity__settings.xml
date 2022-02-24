@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Settings_activity">
+
+    <Button
+        android:id="@+id/activity_settings_btn_show_all_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginTop="@dimen/Regester_activity_margin_Large"
+        android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginBottom="@dimen/Regester_activity_margin_between"
+        android:text=" Show all game"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/activity_settings_btn_last_game_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginTop="@dimen/Regester_activity_margin_between"
+        android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginBottom="@dimen/Regester_activity_margin_between"
+        android:text=" Show last game data"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/activity_settings_btn_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginTop="@dimen/Regester_activity_margin_between"
+        android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginBottom="@dimen/Regester_activity_margin_between"
+        android:text="Change password"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/activity_settings_btn_clear_game_histiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginTop="@dimen/Regester_activity_margin_between"
+        android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginBottom="@dimen/Regester_activity_margin_between"
+        android:text="Clear game history"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_activity">
+
+    <ImageView
+        android:id="@+id/activity_login_iv_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/Regester_activity_margin_Large"
+        android:background="@drawable/shap_size_radius_et"
+        app:srcCompat="@drawable/shap_size_radius_et" />
+
+    <EditText
+        android:id="@+id/activity_login_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginTop="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginBottom="@dimen/Regester_activity_margin_between"
+        android:background="@drawable/shap_size_radius_et"
+        android:drawablePadding="@dimen/Regester_activity_padding"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="User name"
+        android:inputType="textPersonName"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/activity_login_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginTop="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginBottom="@dimen/Regester_activity_margin_between"
+        android:background="@drawable/shap_size_radius_et"
+        android:drawablePadding="@dimen/Regester_activity_padding"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_login_btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/Regester_activity_margin_Rigth_left"
+            android:layout_weight="1"
+            android:background="@drawable/shap_size_radius_btn"
+            android:paddingBottom="4dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/activity_login_btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/Regester_activity_margin_Rigth_left"
+            android:layout_weight="1"
+            android:background="@drawable/shap_size_radius_btn"
+            android:paddingBottom="4dp"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/activity_login_cb_remember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/Regester_activity_margin_Rigth_left"
+        android:checked="true"
+        android:clickable="true"
+        android:shadowColor="@color/login_activity_color_text_grey"
+        android:text="Remember me?"
+        android:textColor="@color/login_activity_color_text_grey"
+        android:textSize="25sp" />
+
+</LinearLayout>

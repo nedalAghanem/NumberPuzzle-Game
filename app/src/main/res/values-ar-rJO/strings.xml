@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Number Puzzle Game</string>
+    <string name="full_Name">الاسم ثلاثي</string>
+    <string name="Email_address">عنوان الايميل</string>
+    <string name="User_name">اسم المستخدم</string>
+    <string name="Pass">كلمة السر</string>
+    <string name="Re_pass">اعادةكلمةالسر</string>
+    <string-array name="country">
+        <item>فلسطين</item>
+        <item>مصر</item>
+        <item>سودان</item>
+        <item>تونس</item>
+        <item>الجزائر</item>
+    </string-array>
+
+    <string name="activity_name_num1">10</string>
+    <string name="activity_name_num2">15</string>
+    <string name="activity_name_num3">20</string>
+    <string name="activity_name_num4">25</string>
+    
+    <string name="activity_name_num6">35</string>
+    <string name="activity_name_num7">40</string>
+    <string name="activity_name_num8">45</string>
+    <string name="activity_name_num9">50</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="save">حفظ</string>
+    <string name="DatePicker"> عمرك </string>
+    <string name="TimeDate"> التاريخ والوقت </string>
+    <string name="True_tv_in_game"> الرقم المدخل صحيح </string>
+    <string name="false_tv_in_game"> الرقم المدخل خاطئ </string>
+</resources>

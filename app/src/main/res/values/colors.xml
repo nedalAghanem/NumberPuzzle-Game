@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Regester_activity_color_stroke">#808080</color>
+    <color name="login_activity_color_text_grey">#7A7A7A</color>
+    <color name="login_activity_color_solid">#C6C6C6</color>
+    <color name="black">#131313</color>
+    <color name="Regester_activity_color_btn_save">#FFDDE8</color>
+
+
+
+</resources>

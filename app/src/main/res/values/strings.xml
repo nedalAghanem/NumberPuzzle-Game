@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Project final games</string>
+    <string name="full_Name">Full Name</string>
+    <string name="Email_address">Email address</string>
+    <string name="User_name">User name</string>
+
+    <string name="Pass">Pass.</string>
+    <string name="Re_pass">Re-pass</string>
+    <string-array name="country">
+        <item>Palestine</item>
+        <item>Egypt</item>
+        <item>Sudan</item>
+        <item>Tunisia</item>
+        <item>Algeria</item>
+    </string-array>
+
+    <string name="activity_name_num1">10</string>
+    <string name="activity_name_num2">15</string>
+    <string name="activity_name_num3">20</string>
+    <string name="activity_name_num4">25</string>
+
+    <string name="activity_name_num6">35</string>
+    <string name="activity_name_num7">40</string>
+    <string name="activity_name_num8">45</string>
+    <string name="activity_name_num9">50</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="save">Save</string>
+    <string name="DatePicker"> BarthDate </string>
+    <string name="TimeDate"> Time and date </string>
+    <string name="True_tv_in_game"> The Number is true </string>
+    <string name="false_tv_in_game"> The Number is false </string>
+</resources>

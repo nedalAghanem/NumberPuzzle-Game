@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+        android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/custom_layout_score"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/Regester_activity_margin_between"
+            android:background="@drawable/shap_size_radius_et"
+            android:gravity="center"
+            android:scrollbarSize="@dimen/Regester_activity_size_text"
+            android:shadowColor="@color/colorAccent"
+            android:text="50"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbarSize="@dimen/Regester_activity_size_text">
+
+            <TextView
+                android:id="@+id/custom_layout_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+                android:layout_marginTop="@dimen/Regester_activity_margin_between"
+                android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+                android:layout_marginBottom="@dimen/Regester_activity_margin_between"
+                android:layout_weight="1"
+                android:background="@drawable/shap_size_radius_et"
+                android:ems="10"
+                android:hint="@string/full_Name"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/custom_layout_timedate"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/Regester_activity_margin_Rigth_left"
+                android:layout_marginTop="@dimen/Regester_activity_margin_between"
+                android:layout_marginRight="@dimen/Regester_activity_margin_Rigth_left"
+                android:layout_marginBottom="@dimen/Regester_activity_margin_between"
+                android:layout_weight="1"
+                android:background="@drawable/shap_size_radius_et"
+                android:ems="10"
+                android:hint="@string/TimeDate"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
